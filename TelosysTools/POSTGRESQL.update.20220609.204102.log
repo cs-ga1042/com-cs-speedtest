@@ -1,0 +1,118 @@
+Update date : Thu Jun 09 20:41:02 CDT 2022
+ 
+ Table 'batch_speed_test_config' found in repository
+ . Column 'guid' : Comment changed to null
+ . Column 'guid' updated
+ . Column 'test_name' : Comment changed to null
+ . Column 'test_name' updated
+ . Column 'test_description' : Comment changed to null
+ . Column 'test_description' updated
+ . Column 'schedule' : Comment changed to null
+ . Column 'schedule' updated
+ (*) table 'batch_speed_test_config' updated : 4 change(s)
+ 
+ Table 'databasechangelog' found in repository
+ . Column 'id' : Comment changed to null
+ . Column 'id' updated
+ . Column 'author' : Comment changed to null
+ . Column 'author' updated
+ . Column 'filename' : Comment changed to null
+ . Column 'filename' updated
+ . Column 'dateexecuted' : Comment changed to null
+ . Column 'dateexecuted' updated
+ . Column 'orderexecuted' : Comment changed to null
+ . Column 'orderexecuted' updated
+ . Column 'exectype' : Comment changed to null
+ . Column 'exectype' updated
+ . Column 'md5sum' : Comment changed to null
+ . Column 'md5sum' updated
+ . Column 'description' : Comment changed to null
+ . Column 'description' updated
+ . Column 'comments' : Comment changed to null
+ . Column 'comments' updated
+ . Column 'tag' : Comment changed to null
+ . Column 'tag' updated
+ . Column 'liquibase' : Comment changed to null
+ . Column 'liquibase' updated
+ . Column 'contexts' : Comment changed to null
+ . Column 'contexts' updated
+ . Column 'labels' : Comment changed to null
+ . Column 'labels' updated
+ . Column 'deployment_id' : Comment changed to null
+ . Column 'deployment_id' updated
+ (*) table 'databasechangelog' updated : 14 change(s)
+ 
+ Table 'databasechangeloglock' found in repository
+ . Column 'id' : Comment changed to null
+ . Column 'id' updated
+ . Column 'locked' : Comment changed to null
+ . Column 'locked' updated
+ . Column 'lockgranted' : Comment changed to null
+ . Column 'lockgranted' updated
+ . Column 'lockedby' : Comment changed to null
+ . Column 'lockedby' updated
+ (*) table 'databasechangeloglock' updated : 4 change(s)
+ 
+ Table 'gateway_device' found in repository
+ (=) table 'gateway_device' unchanged
+ 
+ Table 'gateway_test' found in repository
+ . Column 'serial_number' : Comment changed to null
+ . Column 'serial_number' updated
+ . Column 'state' : Comment changed to null
+ . Column 'state' updated
+ . Column 'test_server_guid' : Comment changed to null
+ . Column 'test_server_guid' updated
+ . Column 'completed_on' : Comment changed to null
+ . Column 'completed_on' updated
+ . Column 'priority' : Comment changed to null
+ . Column 'priority' updated
+ (*) table 'gateway_test' updated : 5 change(s)
+ 
+ Table 'gateway_test_history' found in repository
+ . Column 'gateway_device_guid' : Comment changed to null
+ . Column 'gateway_device_guid' updated
+ (*) table 'gateway_test_history' updated : 1 change(s)
+ 
+ Table 'gateway_test_result' found in repository
+ . Column 'guid' : Comment changed to null
+ . Column 'guid' updated
+ . Column 'gateway_test_guid' : Comment changed to null
+ . Column 'gateway_test_guid' updated
+ . Column 'result' : Comment changed to null
+ . Column 'result' updated
+ . Column 'status' : Comment changed to null
+ . Column 'status' updated
+ (*) table 'gateway_test_result' updated : 4 change(s)
+ 
+ Table 'metric_gateway_config' found in repository
+ (=) table 'metric_gateway_config' unchanged
+ 
+ Table 'metric_gateway_history' found in repository
+ . Column 'guid' : Comment changed to null
+ . Column 'guid' updated
+ . Column 'test_server_guid' : Comment changed to null
+ . Column 'test_server_guid' updated
+ . Column 'absolute_load' : Comment changed to null
+ . Column 'absolute_load' updated
+ . Column 'realtive_load' : Comment changed to null
+ . Column 'realtive_load' updated
+ . Column 'calculated_capacity' : Comment changed to null
+ . Column 'calculated_capacity' updated
+ . Column 'running_tests' : Comment changed to null
+ . Column 'running_tests' updated
+ (*) table 'metric_gateway_history' updated : 6 change(s)
+ 
+ Table 'speed_test' found in repository
+ . Column 'guid' : Comment changed to null
+ . Column 'guid' updated
+ . Column 'last_updated' : Comment changed to null
+ . Column 'last_updated' updated
+ . Column 'test_name' : Comment changed to null
+ . Column 'test_name' updated
+ . Column 'test_description' : Comment changed to null
+ . Column 'test_description' updated
+ (*) table 'speed_test' updated : 4 change(s)
+ 
+ Table 'test_server' found in repository
+ (=) table 'test_server' unchanged
